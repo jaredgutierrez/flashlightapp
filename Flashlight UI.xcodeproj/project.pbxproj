@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D877CABA1C75791200385D7F /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D877CAB91C75791200385D7F /* black.jpg */; };
 		D8B44EF41C72E06E00F2CB09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B44EF31C72E06E00F2CB09 /* AppDelegate.swift */; };
 		D8B44EF61C72E06E00F2CB09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B44EF51C72E06E00F2CB09 /* ViewController.swift */; };
 		D8B44EF91C72E06E00F2CB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B44EF71C72E06E00F2CB09 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		D8B44EFE1C72E06E00F2CB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B44EFC1C72E06E00F2CB09 /* LaunchScreen.storyboard */; };
 		D8B44F091C72E06E00F2CB09 /* Flashlight_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B44F081C72E06E00F2CB09 /* Flashlight_UITests.swift */; };
 		D8B44F141C72E06E00F2CB09 /* Flashlight_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B44F131C72E06E00F2CB09 /* Flashlight_UIUITests.swift */; };
+		D8B44F221C72E09200F2CB09 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B44F211C72E09200F2CB09 /* AVFoundation.framework */; };
+		D8B44F2A1C72E54700F2CB09 /* lightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B44F291C72E54700F2CB09 /* lightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D877CAB91C75791200385D7F /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = SOURCE_ROOT; };
 		D8B44EF01C72E06E00F2CB09 /* Flashlight UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashlight UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B44EF31C72E06E00F2CB09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B44EF51C72E06E00F2CB09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		D8B44F0F1C72E06E00F2CB09 /* Flashlight UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flashlight UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B44F131C72E06E00F2CB09 /* Flashlight_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashlight_UIUITests.swift; sourceTree = "<group>"; };
 		D8B44F151C72E06E00F2CB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B44F211C72E09200F2CB09 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8B44F291C72E54700F2CB09 /* lightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B44F221C72E09200F2CB09 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		D8B44EE71C72E06E00F2CB09 = {
 			isa = PBXGroup;
 			children = (
+				D8B44F211C72E09200F2CB09 /* AVFoundation.framework */,
 				D8B44EF21C72E06E00F2CB09 /* Flashlight UI */,
 				D8B44F071C72E06E00F2CB09 /* Flashlight UITests */,
 				D8B44F121C72E06E00F2CB09 /* Flashlight UIUITests */,
@@ -100,7 +108,9 @@
 				D8B44EF31C72E06E00F2CB09 /* AppDelegate.swift */,
 				D8B44EF51C72E06E00F2CB09 /* ViewController.swift */,
 				D8B44EF71C72E06E00F2CB09 /* Main.storyboard */,
+				D8B44F291C72E54700F2CB09 /* lightViewController.swift */,
 				D8B44EFA1C72E06E00F2CB09 /* Assets.xcassets */,
+				D877CAB91C75791200385D7F /* black.jpg */,
 				D8B44EFC1C72E06E00F2CB09 /* LaunchScreen.storyboard */,
 				D8B44EFF1C72E06E00F2CB09 /* Info.plist */,
 			);
@@ -193,6 +203,7 @@
 				TargetAttributes = {
 					D8B44EEF1C72E06E00F2CB09 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = BBGLV6EB7R;
 					};
 					D8B44F031C72E06E00F2CB09 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D877CABA1C75791200385D7F /* black.jpg in Resources */,
 				D8B44EFE1C72E06E00F2CB09 /* LaunchScreen.storyboard in Resources */,
 				D8B44EFB1C72E06E00F2CB09 /* Assets.xcassets in Resources */,
 				D8B44EF91C72E06E00F2CB09 /* Main.storyboard in Resources */,
@@ -256,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B44F2A1C72E54700F2CB09 /* lightViewController.swift in Sources */,
 				D8B44EF61C72E06E00F2CB09 /* ViewController.swift in Sources */,
 				D8B44EF41C72E06E00F2CB09 /* AppDelegate.swift in Sources */,
 			);
@@ -397,10 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Flashlight UI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jared.gut.Flashlight-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Flashlight UI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jared.gut.Flashlight-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +501,7 @@
 				D8B44F1A1C72E06E00F2CB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B44F1B1C72E06E00F2CB09 /* Build configuration list for PBXNativeTarget "Flashlight UITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +510,7 @@
 				D8B44F1D1C72E06E00F2CB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B44F1E1C72E06E00F2CB09 /* Build configuration list for PBXNativeTarget "Flashlight UIUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				D8B44F201C72E06E00F2CB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
